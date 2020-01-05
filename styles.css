@@ -1,0 +1,51 @@
+body {
+  background-color:#27ae60;
+  margin:0;
+  font-family:Roboto,sans-serif;
+}
+h1,h2 {
+  color:white;
+  font-family: Roboto,sans-serif;
+  font-weight:300;
+  text-align: center;
+}
+h2 {
+    font-size: 40px;
+}
+.toomuch {
+  color: #f2e252;
+}
+.valign {
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -moz-box-direction: normal;
+  -ms-box-direction: normal;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -ms-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  z-index: 2;
+}
